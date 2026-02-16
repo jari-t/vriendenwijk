@@ -18,7 +18,7 @@
       {
         "id": "de-meir",
         "title": "De Meir",
-        "image": "/src/img/wijk-1.jpg",
+        "image": "./src/img/wijk-1.jpg",
         "alt": "Vriendenwijk Antwerpen 1",
         "address": "Keyserlei 19",
         "features": [
@@ -52,7 +52,7 @@
       {
         "id": "het-eilandje",
         "title": "Het Eilandje",
-        "image": "/src/img/wijk-2.jpg",
+        "image": "./src/img/wijk-2.jpg",
         "alt": "Vriendenwijk Antwerpen 2",
         "address": "Rijnkaai 31",
         "features": [
@@ -86,7 +86,7 @@
       {
         "id": "zuid",
         "title": "Zuid",
-        "image": "/src/img/wijk-3.jpg",
+        "image": "./src/img/wijk-3.jpg",
         "alt": "Vriendenwijk Antwerpen 3",
         "address": "Amerikalei 102",
         "features": [
@@ -120,7 +120,7 @@
       {
         "id": "berchem",
         "title": "Berchem",
-        "image": "/src/img/wijk-4.jpg",
+        "image": "./src/img/wijk-4.jpg",
         "alt": "Vriendenwijk Antwerpen 4",
         "address": "Statiestraat 44",
         "features": [
@@ -154,7 +154,7 @@
       {
         "id": "borgerhout",
         "title": "Borgerhout",
-        "image": "/src/img/wijk-5.jpg",
+        "image": "./src/img/wijk-5.jpg",
         "alt": "Vriendenwijk Antwerpen 5",
         "address": "Turnhoutsebaan 210",
         "features": [
@@ -188,7 +188,7 @@
       {
         "id": "wilrijk",
         "title": "Wilrijk",
-        "image": "/src/img/wijk-6.jpg",
+        "image": "./src/img/wijk-6.jpg",
         "alt": "Vriendenwijk Antwerpen 6",
         "address": "Bist 12",
         "features": [
@@ -227,7 +227,7 @@
       {
         "id": "heverlee",
         "title": "Heverlee",
-        "image": "/src/img/wijk-1.jpg",
+        "image": "./src/img/wijk-1.jpg",
         "alt": "Vriendenwijk Leuven 1",
         "address": "Naamsesteenweg 120",
         "features": [
@@ -261,7 +261,7 @@
       {
         "id": "kessel-lo",
         "title": "Kessel-Lo",
-        "image": "/src/img/wijk-2.jpg",
+        "image": "./src/img/wijk-2.jpg",
         "alt": "Vriendenwijk Leuven 2",
         "address": "Diestsesteenweg 88",
         "features": [
@@ -295,7 +295,7 @@
       {
         "id": "leuven-binnenstad",
         "title": "Binnenstad",
-        "image": "/src/img/wijk-3.jpg",
+        "image": "./src/img/wijk-3.jpg",
         "alt": "Vriendenwijk Leuven 3",
         "address": "Bondgenotenlaan 54",
         "features": [
@@ -329,7 +329,7 @@
       {
         "id": "wilsele",
         "title": "Wilsele",
-        "image": "/src/img/wijk-4.jpg",
+        "image": "./src/img/wijk-4.jpg",
         "alt": "Vriendenwijk Leuven 4",
         "address": "Aarschotsesteenweg 310",
         "features": [
@@ -363,7 +363,7 @@
       {
         "id": "wijgmaal",
         "title": "Wijgmaal",
-        "image": "/src/img/wijk-5.jpg",
+        "image": "./src/img/wijk-5.jpg",
         "alt": "Vriendenwijk Leuven 5",
         "address": "Remylaan 6",
         "features": [
@@ -397,7 +397,7 @@
       {
         "id": "korbeek-lo",
         "title": "Korbeek-Lo",
-        "image": "/src/img/wijk-6.jpg",
+        "image": "./src/img/wijk-6.jpg",
         "alt": "Vriendenwijk Leuven 6",
         "address": "Tiensesteenweg 210",
         "features": [
@@ -436,7 +436,7 @@
       {
         "id": "mechelen-binnenstad",
         "title": "Binnenstad",
-        "image": "/src/img/wijk-1.jpg",
+        "image": "./src/img/wijk-1.jpg",
         "alt": "Vriendenwijk Mechelen 1",
         "address": "Ijzerenleen 45",
         "features": [
@@ -470,7 +470,7 @@
       {
         "id": "nekkerspoel",
         "title": "Nekkerspoel",
-        "image": "/src/img/wijk-2.jpg",
+        "image": "./src/img/wijk-2.jpg",
         "alt": "Vriendenwijk Mechelen 2",
         "address": "Hanswijkvaart 18",
         "features": [
@@ -504,7 +504,7 @@
       {
         "id": "muizen",
         "title": "Muizen",
-        "image": "/src/img/wijk-3.jpg",
+        "image": "./src/img/wijk-3.jpg",
         "alt": "Vriendenwijk Mechelen 3",
         "address": "Leuvensesteenweg 390",
         "features": [
@@ -538,7 +538,7 @@
       {
         "id": "hombeek",
         "title": "Hombeek",
-        "image": "/src/img/wijk-4.jpg",
+        "image": "./src/img/wijk-4.jpg",
         "alt": "Vriendenwijk Mechelen 4",
         "address": "Dorpsstraat 62",
         "features": [
@@ -572,7 +572,7 @@
       {
         "id": "battel",
         "title": "Battel",
-        "image": "/src/img/wijk-5.jpg",
+        "image": "./src/img/wijk-5.jpg",
         "alt": "Vriendenwijk Mechelen 5",
         "address": "Battelsesteenweg 140",
         "features": [
