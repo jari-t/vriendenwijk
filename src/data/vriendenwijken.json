@@ -606,7 +606,7 @@
       {
         "id": "leest",
         "title": "Leest",
-        "image": "/src/img/wijk-6.jpg",
+        "image": "./src/img/wijk-6.jpg",
         "alt": "Vriendenwijk Mechelen 6",
         "address": "Dorp 9",
         "features": [
