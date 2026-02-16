@@ -4,7 +4,7 @@ import viteImagemin from "vite-plugin-imagemin";
 
 export default defineConfig({
   root: ".", // root stays the same (index.html lives here)
-  base: "./", // ensures relative paths in production
+  base: "/vriendenwijk/", // ensures relative paths in production
   build: {
     outDir: "./dist",
     emptyOutDir: true,
