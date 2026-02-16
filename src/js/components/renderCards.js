@@ -1,6 +1,5 @@
 import { startLoadingTimer, finishLoading } from "@/js/helpers/loadingTransition.js";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { vriendenwijkenData } from "@/data/vriendenwijken.json";
 
 export async function renderCards() {
     const template = document.querySelector("#overview-card-template");
@@ -10,7 +9,10 @@ export async function renderCards() {
     startLoadingTimer();
 
     try {
-        const data = vriendenwijkenData;
+        const response = await fetch("./src/data/vriendenwijken.json");
+        if (!response.ok) throw new Error("Failed to load card data");
+
+        const data = await response.json();
 
         const createdImgs = [];
         const skeletonFadeMs = 280; // keep in sync with _overview-skeleton.scss
