@@ -1,0 +1,1 @@
+function i(){document.body.dataset.loadingStart=String(Date.now())}function d(t,n=350){const o=Number(document.body.dataset.loadingStart||Date.now()),a=Date.now()-o,e=Math.max(0,n-a);return new Promise(s=>{window.setTimeout(()=>{document.body.classList.remove(t),s()},e)})}export{d as f,i as s};
