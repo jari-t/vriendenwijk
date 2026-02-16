@@ -10,11 +10,7 @@ export async function renderCards() {
     startLoadingTimer();
 
     try {
-        const VWdata = vriendenwijkenData;
-        const response = await fetch(VWdata);
-        if (!response.ok) throw new Error("Failed to load card data");
-
-        const data = await response.json();
+        const data = vriendenwijkenData;
 
         const createdImgs = [];
         const skeletonFadeMs = 280; // keep in sync with _overview-skeleton.scss
