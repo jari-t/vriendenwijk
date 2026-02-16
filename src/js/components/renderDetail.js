@@ -35,7 +35,7 @@ export async function renderDetail() {
     try {
         const id = getDetailIdFromUrl();
 
-        const res = await fetch("/src/data/vriendenwijken.json");
+        const res = await fetch("./src/data/vriendenwijken.json");
         if (!res.ok) throw new Error("Failed to load vriendenwijken.json");
         const data = await res.json();
 

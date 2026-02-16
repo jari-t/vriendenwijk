@@ -9,7 +9,7 @@ export async function renderCards() {
     startLoadingTimer();
 
     try {
-        const response = await fetch("/src/data/vriendenwijken.json");
+        const response = await fetch("./src/data/vriendenwijken.json");
         if (!response.ok) throw new Error("Failed to load card data");
 
         const data = await response.json();
